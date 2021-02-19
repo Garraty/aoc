@@ -13,7 +13,7 @@ namespace Aoc.Solution.Y2015.Tests
         public void SolvePart1Test(string[] input, int expected)
         {
             Day01 solution = new();
-            input.ToList().ForEach(x => Assert.Equal(solution.SolvePart1(x), expected));
+            input.ToList().ForEach(x => Assert.Equal(expected, solution.SolvePart1(x)));
         }
 
         [Theory()]
@@ -22,7 +22,7 @@ namespace Aoc.Solution.Y2015.Tests
         public void SolvePart2Test(string input, int expected)
         {
             Day01 solution = new();
-            Assert.Equal(solution.SolvePart2(input), expected);
+            Assert.Equal(expected, solution.SolvePart2(input));
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Aoc
         static async Task Main(string[] args)
         {
 
-            IDayTaskGenerator dayTaskGenerator = new DayTaskGenerator().Year(2015).MinDay(1).MaxDay(1);
+            IDayTaskGenerator dayTaskGenerator = new DayTaskGenerator().Year(2015).MinDay(1).MaxDay(2);
 
             SolutionMapper solutionMapper = (dayTask) =>
             {
