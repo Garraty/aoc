@@ -1,4 +1,4 @@
-﻿namespace Aoc.Core
+﻿namespace Aoc.Core.Common
 {
     public class DayTaskResult
     {

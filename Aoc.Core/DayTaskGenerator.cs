@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Aoc.Core.Common;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Aoc.Core

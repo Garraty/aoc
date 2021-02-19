@@ -1,4 +1,4 @@
-﻿using Aoc.Core;
+﻿using Aoc.Core.Common;
 using System.Linq;
 using System.Threading;
 

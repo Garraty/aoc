@@ -1,9 +1,8 @@
-﻿using System;
+﻿using Aoc.Core;
+using Aoc.Core.Common;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Aoc.Core;
-using CommandLine;
 
 namespace Aoc
 {

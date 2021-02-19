@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aoc.Core.Common;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
@@ -6,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace Aoc.Core
 {
-    public delegate SolvePart SolutionMapper(DayTask dayTask);
 
     public class SolutionRunner : ISolutionRunner
     {
