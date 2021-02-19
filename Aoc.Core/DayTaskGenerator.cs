@@ -1,5 +1,6 @@
 ﻿using Aoc.Core.Common;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace Aoc.Core
@@ -20,6 +21,7 @@ namespace Aoc.Core
             _dayTaskParts = new();
             _dayTaskParts.Add(DayTaskPart.One);
             _dayTaskParts.Add(DayTaskPart.Two);
+            _inputGetter = (year, day) => File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "input", $"Y{year}", $"Day{day:00}.txt"));
         }
 
         public DayTaskGenerator Year(int year)
